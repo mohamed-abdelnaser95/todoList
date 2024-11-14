@@ -11,6 +11,7 @@ const Navbar = () => {
                         alt='ToDo List'
                         width={40}
                   />
+                  <h2>ToDo List</h2>
                   <Link href='/'>Dashboard</Link>
                   <Link href='/tickets'>Tickets</Link>
             </nav>
