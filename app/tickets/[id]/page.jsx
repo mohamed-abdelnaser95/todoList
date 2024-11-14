@@ -34,7 +34,7 @@ async function Page ({ params }) {
                         <small>created By: {ticketDatails.user_email}</small>
                         <p>{ticketDatails.body}</p>
                         <div className={`pill ${ticketDatails.priority}`}>
-                              {ticketDatails.priority}
+                              {ticketDatails.priority} Priority
                         </div>
                   </div> 
             </main>
